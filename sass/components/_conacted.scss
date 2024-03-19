@@ -1,0 +1,85 @@
+
+
+
+.conacted {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-color: aqua;
+  }
+  .conacted .content {
+    display: flex;
+    justify-content: space-evenly;
+    
+    
+  }
+  .conacted h1 {
+    display: flex;
+    justify-content: center;
+    font-size: 50px;
+    font-weight: bold;
+  }
+  @media (max-width: 767px) {
+    .conacted .content {
+      flex-direction: column;
+    }
+  }
+  .conacted .content form {
+    // display: flex;
+    // justify-content: center
+    // flex-direction: ;
+    flex-basis: 70%;
+  }
+//   .conacted .conacted form .placeholder {
+//     // display: flex;
+//     // justify-content: center;
+//     color: red;
+//   }
+  .conacted .content form .main-input {
+    padding: 10px;
+    display: block;
+    border: 1px solid #ccc;
+    // background-color: rgb(213, 20, 52);
+    margin-bottom: 30px;
+    margin-top: 30px;
+    width: 77%;
+  }
+  .conacted .content form .main-input:focus {
+    outline: none;
+  }
+  .conacted .content form textarea.main-input {
+    height: 200px;
+  }
+  .conacted .content form input[type="submit"] {
+    background-color: rgb(61, 124, 232);
+    color: white;
+    padding: 10px 23px;
+    border-radius: 3px;
+    border: none;
+    display: flex;
+    // margin-left: auto;
+    text-transform: uppercase;
+    cursor: pointer;
+  }
+  .conacted .content ul {
+    list-style: none;
+    flex-basis: 25%;
+  }
+  .conacted .content ul li {
+    margin: 15px;
+    color: blue;
+  }
+  .conacted .content ul li i {
+    font-size: 20px;
+    color: white;
+    margin-left: 5px;
+  }
+  @media (max-width: 767px) {
+    .conacted .content ul {
+      order: -1;
+      text-align: center;
+    }
+  }
+  
+  
+  
+  
