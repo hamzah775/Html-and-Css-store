@@ -4,7 +4,7 @@
 .conacted {
     padding-top: 100px;
     padding-bottom: 100px;
-    background-color: aqua;
+    background-color: #CFFFFA;
   }
   .conacted .content {
     display: flex;
@@ -14,6 +14,7 @@
   }
   .conacted h1 {
     display: flex;
+    color: #10CAB7;
     justify-content: center;
     font-size: 50px;
     font-weight: bold;
@@ -38,7 +39,6 @@
     padding: 10px;
     display: block;
     border: 1px solid #ccc;
-    // background-color: rgb(213, 20, 52);
     margin-bottom: 30px;
     margin-top: 30px;
     width: 77%;
@@ -50,7 +50,7 @@
     height: 200px;
   }
   .conacted .content form input[type="submit"] {
-    background-color: rgb(61, 124, 232);
+    background-color: #10CAB7;
     color: white;
     padding: 10px 23px;
     border-radius: 3px;
@@ -66,11 +66,11 @@
   }
   .conacted .content ul li {
     margin: 15px;
-    color: blue;
+    color: black;
   }
   .conacted .content ul li i {
     font-size: 20px;
-    color: white;
+    color: black;
     margin-left: 5px;
   }
   @media (max-width: 767px) {

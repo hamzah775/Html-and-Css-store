@@ -42,10 +42,11 @@
     margin-top: 60px;
 }
 .product .boxs .box {
-    background-color: #483e3e;
+    // background-color: #483e3e;
   text-align: center;
-  border-radius: 3px;
+  border-radius: 5px;
   padding: 20px 2px;
+  border: 1px solid #062521;
 }
 
 .product .boxs .box .image img {
@@ -58,7 +59,7 @@
   border-radius: 3px;
 }
 .product .box .topic {
-    color: aqua;
+    color: #333;
     padding: 8px;
     font-size: 20px;
     border-bottom: 1px solid #ddd;
@@ -68,21 +69,25 @@
     list-style: none;
 }
 .product .box ul li {
-    color: white;
+    // color: white;
     padding: 5px;
 }
 .product .box ul span {
-    color: red;
+    color: #333;
 }
 .product .box .topics-price {
-    color: rgb(189, 5, 5);
+    color: #10CAB7;
     display: block;
     font-weight: bold;
     margin-bottom: 30px;
 }
+.product .box del {
+    font-size: 15px;
+    color: #333;
+}
 .product .box a {
     text-decoration: none;
-    background-color: rgb(19, 110, 221);
+    background-color: #10CAB7;
     color: white;
     padding: 10px 40px;
     border-radius: 20px;

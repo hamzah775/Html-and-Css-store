@@ -8,12 +8,19 @@ footer {
     align-items: center;
     flex-direction: column;
     padding: 15px;
-    background-color: rgb(76, 108, 108);
+    background-color: #062521;
+    color: white;
+}
+footer span {
+    line-height: 1.5;
 }
 footer .hi  {
-    color: rgb(207, 19, 66);
+    color: #10CAB7;
+    padding-left: 3px;
 }
+
 footer .icons i {
-    font-size: 35px;
-    padding-right: 5px;
+    font-size: 15px;
+    padding-right: 8px;
+    // color: white;
 }

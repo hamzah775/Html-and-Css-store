@@ -1,8 +1,8 @@
 
 
-
 .header {
-    background-color: #ddd;
+    background-color: #062521;
+    
 }
 nav {
     flex: 1;
@@ -10,8 +10,6 @@ nav {
     justify-content: flex-start;
     align-items: center;
     flex-direction: row-reverse;
-   
-    
 }
 
 nav img {
@@ -28,17 +26,18 @@ nav ul {
     display: flex;
     flex-direction: row-reverse;
     list-style: none;
+    
 }
 nav ul a {
     text-decoration: none;
     display: block;
     position: relative;
     padding: 25px 10px;
-    color: #333;
+    color: white;
     transition: 0.3s;
 }
 nav ul li a.active,
 nav ul li a:hover  {
-    color: orangered;
-    border-bottom:2px solid orangered;
+    color: #10CAB7;
+    border-bottom:2px solid #10CAB7;
 }
