@@ -8,7 +8,7 @@
   }
   .conacted .content {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     
     
   }
@@ -28,7 +28,7 @@
     // display: flex;
     // justify-content: center
     // flex-direction: ;
-    flex-basis: 70%;
+    flex-basis: 60%;
   }
 //   .conacted .conacted form .placeholder {
 //     // display: flex;
@@ -55,14 +55,14 @@
     padding: 10px 23px;
     border-radius: 3px;
     border: none;
-    display: flex;
-    // margin-left: auto;
+    display: block;
+    margin-right: 440px;
     text-transform: uppercase;
     cursor: pointer;
   }
   .conacted .content ul {
     list-style: none;
-    flex-basis: 25%;
+    flex-basis: 40%;
   }
   .conacted .content ul li {
     margin: 15px;

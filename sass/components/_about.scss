@@ -27,13 +27,14 @@
 }
 .about .contact h2 {
     display: flex;
-    justify-content: flex-end;
-    color: #10CAB7;
+    justify-content: flex-start;
+    color: black;
     
 }
 .about .contact span {
-    margin-left: 10px;
-    color: black;
+    margin-right: 10px;
+  
+    color: #10CAB7;
 }
 @media (max-width : 767px) {
     .about .about-contact img{

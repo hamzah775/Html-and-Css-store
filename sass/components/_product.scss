@@ -52,6 +52,7 @@
 .product .boxs .box .image img {
    height: 150px;
    width: 150px;
+   object-fit: cover;
    max-width: 100%;
    padding-bottom:5px ;
    margin-bottom: 10px;

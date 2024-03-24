@@ -7,15 +7,14 @@
 nav {
     flex: 1;
     display: flex;
-    justify-content: flex-start;
     align-items: center;
-    flex-direction: row-reverse;
 }
 
 nav img {
     width: 70px;
     height: 70px;
     margin-left: 80px;
+    object-fit: cover;
 }
 @media (max-width : 767px) {
     .header nav img {

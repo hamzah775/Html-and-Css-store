@@ -7,6 +7,7 @@
 
 body {
   font-family: "Work-Sans", sans-serif;
+  direction: rtl;
 }
 
 .container {
@@ -46,22 +47,17 @@ nav {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: start;
-      -ms-flex-pack: start;
-          justify-content: flex-start;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: reverse;
-      -ms-flex-direction: row-reverse;
-          flex-direction: row-reverse;
 }
 
 nav img {
   width: 70px;
   height: 70px;
   margin-left: 80px;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 @media (max-width: 767px) {
@@ -155,7 +151,7 @@ nav ul li a:hover {
 
 .landing p {
   margin-top: 10px;
-  margin-left: 50px;
+  margin-right: 50px;
   letter-spacing: 1.5;
 }
 
@@ -218,15 +214,15 @@ nav ul li a:hover {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: end;
-      -ms-flex-pack: end;
-          justify-content: flex-end;
-  color: #10CAB7;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  color: black;
 }
 
 .about .contact span {
-  margin-left: 10px;
-  color: black;
+  margin-right: 10px;
+  color: #10CAB7;
 }
 
 @media (max-width: 767px) {
@@ -294,6 +290,8 @@ nav ul li a:hover {
 .product .boxs .box .image img {
   height: 150px;
   width: 150px;
+  -o-object-fit: cover;
+     object-fit: cover;
   max-width: 100%;
   padding-bottom: 5px;
   margin-bottom: 10px;
@@ -361,7 +359,7 @@ footer {
 }
 
 footer span {
-  line-height: 1.5;
+  line-height: 2;
 }
 
 footer .hi {
@@ -384,9 +382,9 @@ footer .icons i {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: space-evenly;
-      -ms-flex-pack: space-evenly;
-          justify-content: space-evenly;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 
 .conacted h1 {
@@ -411,8 +409,8 @@ footer .icons i {
 }
 
 .conacted .content form {
-  -ms-flex-preferred-size: 70%;
-      flex-basis: 70%;
+  -ms-flex-preferred-size: 60%;
+      flex-basis: 60%;
 }
 
 .conacted .content form .main-input {
@@ -438,17 +436,16 @@ footer .icons i {
   padding: 10px 23px;
   border-radius: 3px;
   border: none;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
+  display: block;
+  margin-right: 440px;
   text-transform: uppercase;
   cursor: pointer;
 }
 
 .conacted .content ul {
   list-style: none;
-  -ms-flex-preferred-size: 25%;
-      flex-basis: 25%;
+  -ms-flex-preferred-size: 40%;
+      flex-basis: 40%;
 }
 
 .conacted .content ul li {
