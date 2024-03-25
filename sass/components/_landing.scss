@@ -3,6 +3,9 @@
 
 .landing {
   height: calc(100vh - 80.39px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
   position: relative;
   padding: 60px;
 }

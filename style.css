@@ -95,6 +95,15 @@ nav ul li a:hover {
 
 .landing {
   height: calc(100vh - 80.39px);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   position: relative;
   padding: 60px;
 }
@@ -187,7 +196,8 @@ nav ul li a:hover {
 .about {
   margin-top: 50px;
   background-color: #CFFFFA;
-  padding: 20px;
+  padding-top: 100px;
+  padding-bottom: 100px;
 }
 
 .about .about-contact {
@@ -200,8 +210,8 @@ nav ul li a:hover {
 }
 
 .about .about-contact img {
-  width: 100px;
-  height: 100px;
+  width: 140px;
+  height: 140px;
   max-width: 100%;
   overflow: hidden;
 }
@@ -217,7 +227,12 @@ nav ul li a:hover {
   -webkit-box-pack: start;
       -ms-flex-pack: start;
           justify-content: flex-start;
+  margin-bottom: 20px;
   color: black;
+}
+
+.about .contact p {
+  line-height: 1.5;
 }
 
 .about .contact span {
@@ -369,6 +384,7 @@ footer .hi {
 
 footer .icons i {
   font-size: 15px;
+  margin-top: 8px;
   padding-right: 8px;
 }
 
@@ -376,6 +392,7 @@ footer .icons i {
   padding-top: 100px;
   padding-bottom: 100px;
   background-color: #CFFFFA;
+  resize: horizontal;
 }
 
 .conacted .content {
@@ -436,8 +453,6 @@ footer .icons i {
   padding: 10px 23px;
   border-radius: 3px;
   border: none;
-  display: block;
-  margin-right: 440px;
   text-transform: uppercase;
   cursor: pointer;
 }

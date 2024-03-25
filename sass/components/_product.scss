@@ -10,6 +10,7 @@
 .product .product-n {
     display: flex;
     justify-content: center;
+    
     position: relative;
     font-size: 50px;
 }
@@ -26,7 +27,6 @@
   .product .product-n::after {
     content: "";
     position: absolute;
-    
     width: 14px;
     height: 2px;
     transform: translateX(-50%);

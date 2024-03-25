@@ -4,7 +4,8 @@
 .about {
     margin-top: 50px;
     background-color:#CFFFFA ;
-    padding: 20px;
+    padding-top: 100px;
+    padding-bottom: 100px;
     
 } 
 
@@ -15,8 +16,8 @@
     
 }
 .about .about-contact img {
-    width: 100px;
-    height: 100px;
+    width: 140px;
+    height: 140px;
     max-width: 100%;
     overflow: hidden;
 }
@@ -28,8 +29,12 @@
 .about .contact h2 {
     display: flex;
     justify-content: flex-start;
+    margin-bottom: 20px;
     color: black;
     
+}
+.about .contact p {
+    line-height: 1.5;
 }
 .about .contact span {
     margin-right: 10px;
