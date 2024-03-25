@@ -6,7 +6,7 @@
 }
 
 body {
-  font-family: "Work-Sans", sans-serif;
+  font-family: "Cairo", sans-serif;
   direction: rtl;
 }
 
@@ -53,7 +53,7 @@ nav {
 }
 
 nav img {
-  width: 70px;
+  width: 180px;
   height: 70px;
   margin-left: 80px;
   -o-object-fit: cover;
