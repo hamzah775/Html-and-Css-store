@@ -5,7 +5,7 @@
     
 }
 nav {
-    flex: 1;
+    // flex: 1;
     display: flex;
     align-items: center;
 }
@@ -17,9 +17,14 @@ nav img {
     object-fit: cover;
 }
 @media (max-width : 767px) {
-    .header nav img {
-        margin-left: 40px;
+    .header {
+        display: flex;
+        justify-content: space-between;
     }
+    .header nav img {
+        display: none;
+    }
+    
 }
 nav ul {
     display: flex;

@@ -12,7 +12,7 @@
     justify-content: center;
     
     position: relative;
-    font-size: 50px;
+    font-size: 30px;
 }
 .product .product-n::before {
     content: "";
@@ -39,10 +39,10 @@
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(210px, 1fr));
     gap: 30px;
+    
     margin-top: 60px;
 }
 .product .boxs .box {
-    // background-color: #483e3e;
   text-align: center;
   border-radius: 5px;
   padding: 20px 2px;
@@ -90,6 +90,7 @@
     text-decoration: none;
     background-color: #10CAB7;
     color: white;
+    margin-top: auto;
     padding: 10px 40px;
     border-radius: 20px;
 }

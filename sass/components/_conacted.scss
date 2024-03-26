@@ -21,22 +21,17 @@
     font-weight: bold;
   }
   @media (max-width: 767px) {
-    .conacted .content {
-      flex-direction: column;
+    .conacted .content  {
+        flex-direction:column-reverse;
+    }
+    .conacted .content form {
+      margin: 0  60px 60px 0;
     }
   }
   .conacted .content form {
-    // display: flex;
-    // justify-content: center
-    // flex-direction: ;
-    flex-basis: 60%;
-    
+    flex-basis: 70%;
   }
-//   .conacted .conacted form .placeholder {
-//     // display: flex;
-//     // justify-content: center;
-//     color: red;
-//   }
+
   .conacted .content form .main-input {
     padding: 10px;
     display: block;

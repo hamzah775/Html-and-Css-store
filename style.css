@@ -8,6 +8,7 @@
 body {
   font-family: "Cairo", sans-serif;
   direction: rtl;
+  overflow-x: hidden;
 }
 
 .container {
@@ -41,9 +42,6 @@ body {
 }
 
 nav {
-  -webkit-box-flex: 1;
-      -ms-flex: 1;
-          flex: 1;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -61,8 +59,16 @@ nav img {
 }
 
 @media (max-width: 767px) {
+  .header {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
   .header nav img {
-    margin-left: 40px;
+    display: none;
   }
 }
 
@@ -108,32 +114,6 @@ nav ul li a:hover {
   padding: 60px;
 }
 
-@media (max-width: 767px) {
-  .landing {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-  }
-  .landing .text-landing h1 {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    font-size: 30px;
-  }
-  .landing .text-landing p {
-    line-height: 2;
-  }
-}
-
 .landing .context {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -155,12 +135,10 @@ nav ul li a:hover {
   color: #10CAB7;
   font-size: 70px;
   font-weight: bold;
-  margin: 0;
 }
 
 .landing p {
-  margin-top: 10px;
-  margin-right: 50px;
+  margin: 10px 40px;
   letter-spacing: 1.5;
 }
 
@@ -179,7 +157,8 @@ nav ul li a:hover {
 
 .landing .context i {
   font-size: 20px;
-  padding: 5px;
+  margin-left: 6px;
+  padding: 6px;
 }
 
 .landing .context .go {
@@ -191,6 +170,31 @@ nav ul li a:hover {
           justify-content: center;
   margin-top: 80px;
   color: #10CAB7;
+}
+
+@media (max-width: 767px) {
+  .landing {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .landing h1 {
+    font-size: 40px;
+  }
+  .landing p {
+    font-size: 12px;
+    margin: auto;
+  }
+  .landing .icons i {
+    margin: auto;
+    font-size: 15px;
+  }
 }
 
 .about {
@@ -259,7 +263,7 @@ nav ul li a:hover {
       -ms-flex-pack: center;
           justify-content: center;
   position: relative;
-  font-size: 50px;
+  font-size: 30px;
 }
 
 .product .product-n::before {
@@ -350,6 +354,7 @@ nav ul li a:hover {
   text-decoration: none;
   background-color: #10CAB7;
   color: white;
+  margin-top: auto;
   padding: 10px 40px;
   border-radius: 20px;
 }
@@ -419,15 +424,18 @@ footer .icons i {
 @media (max-width: 767px) {
   .conacted .content {
     -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+  }
+  .conacted .content form {
+    margin: 0  60px 60px 0;
   }
 }
 
 .conacted .content form {
-  -ms-flex-preferred-size: 60%;
-      flex-basis: 60%;
+  -ms-flex-preferred-size: 70%;
+      flex-basis: 70%;
 }
 
 .conacted .content form .main-input {
